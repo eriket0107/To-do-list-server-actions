@@ -1,8 +1,6 @@
 |Light|Dark|
 |---|---|
-|<img width="564" alt="image" src="https://github.com/user-attachments/assets/100be25e-607d-46b3-bacb-ead9481e1ee6" />
-|<img width="564" alt="image" src="https://github.com/user-attachments/assets/75ce7a22-6d84-4a0e-85fb-e0ac2772b27a" />
-|
+|<img width="564" alt="image" src="https://github.com/user-attachments/assets/100be25e-607d-46b3-bacb-ead9481e1ee6" /> |<img width="564" alt="image" src="https://github.com/user-attachments/assets/75ce7a22-6d84-4a0e-85fb-e0ac2772b27a" />|
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
