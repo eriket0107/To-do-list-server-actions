@@ -5,19 +5,16 @@ import { Button } from "../Button";
 
 export const ThemeButton = () => {
   const [theme, setTheme] = useState<"light" | "dark">(() => {
-    if (typeof window !== "undefined") {
-      const savedTheme = localStorage.getItem("@app-todo:theme") as
-        | "light"
-        | "dark"
-        | null;
-      return (
-        savedTheme ||
-        (window.matchMedia("(prefers-color-scheme: dark)").matches
-          ? "dark"
-          : "light")
-      );
-    }
-    return "light";
+    const savedTheme = localStorage.getItem("@app-todo:theme") as
+      | "light"
+      | "dark"
+      | null;
+    return (
+      savedTheme ||
+      (window.matchMedia("(prefers-color-scheme: dark)").matches
+        ? "dark"
+        : "light")
+    );
   });
 
   const handleThemeChange = () => {
